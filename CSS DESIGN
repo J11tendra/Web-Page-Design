@@ -1,0 +1,88 @@
+<html>
+  <head>
+     <title>creating a web-page</title>
+       <meta charset="UTF-8">
+     <link rel="stylesheet" href="style.css">
+   </head>
+<body>
+    <div class="text">
+      <div class="back">
+          <h1 font-size="50px" ><font color="white">SPOTIFY</font></h1>
+     <ul>
+        <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+               <li><a href="#">Search</a></li>
+            <li><a href="#">View</a></li>
+        <li><a href="#">Post</a></li>
+     </ul>
+    </div>
+        <div class="content"> 
+           <h2>subcreise to asjldkj fsdkfhsdijfoi channel andidfhds isjn kksjdkksf dkh</h2>
+        </div>
+    </div>
+  </body>
+</html>
+
+#CSS FILES SAVED WITH EXTENSION .CSS EG:-(XXX.CSS)
+
+*{
+margin: 0;
+padding: 0;
+font-family: Sans Serif;
+}
+
+
+
+
+h1{
+	cursor: pointer;}
+.text{
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba
+
+(0,0,0,0.75)) ,url("image.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	
+	
+	}
+
+
+.back{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;}
+
+
+
+.back ul li {
+	list-style: none ; 
+	display: inline-block;
+	margin: 0 20;}
+
+.back ul li a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	}
+
+
+.content{
+	width: 100%;
+	top: 50%;
+	position: absolute;
+	text-align: center;
+	color: white;}
+
+
+hr{
+	width: 50%;
+	size: 5px;
+	height: 2px;
+	color: black;
+	align: center;
+	margin-left: 25%;}
